@@ -1,0 +1,99 @@
+* {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.descuento {
+  padding: 10px;
+  background-color: #1cd1b0;
+  font-size: 15px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  z-index: -1;
+
+}
+
+h1 {
+  font-family: Roboto, sans-serif;
+  font-size: 40px;
+  text-decoration: #000000;
+  background-color: #00669f;
+  padding: 28px 0px 26px 28px;
+  box-shadow: 0px 10px 7px 0px #00000040;
+  z-index: -1;
+}
+
+.card {
+  width: 300px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  gap: 15px;
+}
+
+.card-head {
+  position: relative;
+  width: 300px;
+  height: 194px;
+
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.card-head .img-corazon {
+  position: absolute;
+  top: 17px;
+  left: 21px;
+}
+
+.card-head .img-baticueva {
+  position: absolute;
+  width: 300;
+  height: 194;
+  top: 292px;
+  left: 32px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.card-head .img-batman {
+  position: absolute;
+  top: 127px;
+  left: 98px;
+  border-radius: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card-body {
+  text-align: center;
+  padding: 73px 16px 30px 16px;
+  background-color: #f3f3f3;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.card-body h2 {
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.card-body p {
+  text-align: justify;
+}
+
+.btn-vermas {
+  display: inline-block;
+  padding: 15px 37px;
+  background-color: #00669f;
+  margin-top: 32px;
+  text-decoration: none;
+  color: white;
+}
