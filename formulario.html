@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="descuento">Descuento 20%</div>
+        <h1>HEROE</h1>
+    </header>
+    <main>
+        <section class="formulario">
+            <h2 class="formtitulo">Añadi tu super!</h2>
+            <p class="texto">Agregá tu personaje favorito completando las opciones.</p>
+            <form action="" method="get">
+                <div class="columna">
+                    <label for="nombre">*Nombre</label>
+                    <input type="text" id="nombre" name="nombre" />
+                    <label for="fecha">Fecha</label>
+                    <input type="date" name="fecha" id="fecha" value="2025-09-10" min="2010-01-01" max="2030-12-31" />
+                    <input class="descrip" type="textarea" />
+                </div>
+                <div class="columnados">
+                    <label for="especie">*Especie</label>
+                    <select name="especie" id="especie">
+                        <option value="alien">Alien</option>
+                        <option value="mutante">Mutante</option>
+                        <option value="humano">Humano</option>
+                        <option value="metahumano">Metahumano</option>
+                    </select>
+                    <label for="avatar">Agregar foto</label>
+                    <input class="foto" type="file" name="avatar" id="avatar" />
+                    <label for="poder">Poderes</label>
+                    <label for="poder"><input class="tilde" type="checkbox" name="poder" value="volar" id="poder" />
+                        Volar</label>
+                    <label for="poder"><input class="tilde" type="checkbox" name="poder" value="superinteligencia"
+                            id="poder" />
+                        Superinteligencia</label>
+                    <label for="poder"><input class="tilde" type="checkbox" name="poder" value="vista-de-rayos-laser"
+                            id="poder" />
+                        Vista de rayos laser</label>
+                    <label for="poder"><input class="tilde" type="checkbox" name="poder" value="billetera-gorda"
+                            id="poder" />
+                        Billetera gorda</label>
+                    <hr />
+                    <label for="personaje">Tipo de personaje</label>
+                    <label for="personaje"><input class="tilde" type="radio" name="personaje" value="heroe/heroina"
+                            id="personaje" />
+                        Heroe/Heroina</label>
+                    <label for="personaje"><input class="tilde" type="radio" name="personaje" value="villano/villana"
+                            id="personaje" />
+                        Villano/Villana</label>
+                </div>
+
+            </form>
+            <button class="btn-añadir" type="submit">Añadir</button>
+
+        </section>
+        <button class="btn-volver"><a class="ir" href="index.html">+</a></button>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a TDW</p>
+    </footer>
+</body>
+
+</html>
